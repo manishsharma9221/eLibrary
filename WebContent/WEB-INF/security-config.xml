@@ -1,0 +1,29 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"  
+ xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+ xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+ http://www.springframework.org/schema/security  
+ http://www.springframework.org/schema/security/spring-security-3.2.xsd">  
+  
+ <http auto-config="true">  
+  <access-denied-handler error-page="/403page" />  
+  <intercept-url pattern="/user*" access="ROLE_USER" />  
+  <intercept-url pattern="/admin*" access="ROLE_ADMIN" />  
+  <form-login login-page='/loginform.html' username-parameter="user_name"  
+   password-parameter="user_password"  
+   authentication-failure-url="/login?authfailed" authentication-success-handler-ref="myAuthenticationSuccessHandler"/>  
+  
+  <logout delete-cookies="JSESSIONID" logout-success-url="/login?logout"/>  
+ </http>  
+ 
+  <beans:bean id="myAuthenticationSuccessHandler" class="in.co.impetus.controllers.MySuccessHandler" />
+  
+ <authentication-manager>  
+  <authentication-provider>  
+   <jdbc-user-service data-source-ref="dataSource"  
+    users-by-username-query="select user_name,user_password, enabled from users where user_name=?"  
+    authorities-by-username-query="select user_name, role_id from roles where user_name =?  " />  
+  </authentication-provider>  
+ </authentication-manager>  
+  
+</beans:beans>  

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="in.co.impetus.controllers.RegisterController" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/controllers/RegisterController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="276" width="330" x="-3" y="209"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="in.co.impetus.service.registration.RegisterService" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/registration/RegisterService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="276" x="464" y="3"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="in.co.impetus.service.request.RequestService" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/request/RequestService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="290" x="453" y="251"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="in.co.impetus.service.subscriptionplan.SubscriptionPlanService" 
+    project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/subscriptionplan/SubscriptionPlanService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="198" width="296" x="465" y="469"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="in.co.impetus.service.registration.RegisterServiceImpl" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/registration/RegisterServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="204" width="266" x="825" y="-4"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="in.co.impetus.service.request.RequestServiceImpl" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/request/RequestServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="192" width="266" x="826" y="252"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="in.co.impetus.service.subscriptionplan.SubscriptionPlanServiceImpl" 
+    project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/service/subscriptionplan/SubscriptionPlanServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="185" width="264" x="829" y="480"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="in.co.impetus.db.dao.RegisterDao" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/RegisterDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="211" width="252" x="1197" y="-3"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="in.co.impetus.db.dao.RegisterDaoImpl" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/RegisterDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="194" width="253" x="1506" y="-6"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="in.co.impetus.db.dao.RequestDAO" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/RequestDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="256" x="1198" y="221"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="in.co.impetus.db.dao.RequestDAOImpl" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/RequestDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="252" width="250" x="1511" y="224"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="in.co.impetus.db.dao.SubscriptionPlansDao" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/SubscriptionPlansDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="163" width="254" x="1209" y="498"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="in.co.impetus.db.dao.SubscriptionPlansDaoImpl" project="BookLibrary" 
+    file="/BookLibrary/src/main/java/in/co/impetus/db/dao/SubscriptionPlansDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="177" width="248" x="1511" y="495"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="14">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="15" name="requestService">        
+        <position height="18" width="82" x="335" y="315"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="18">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="19" name="registerService">        
+        <position height="18" width="82" x="354" y="175"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1">        
+        <position height="16" width="23" x="435" y="207"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="21">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="23">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="24" name="requestDAO"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="27" name="subscriptionPlansDao">        
+        <position height="18" width="112" x="1092" y="548"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="29">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="31" name="registerDao"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="34" name="subscriptionPlanService">        
+        <position height="18" width="124" x="325" y="399"/>      
+      </attribute>      
+      <multiplicity id="35" minimum="0" maximum="1">        
+        <position height="16" width="23" x="435" y="494"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="36">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="37">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="38">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="39" name="requestDAO">        
+        <position height="18" width="68" x="1084" y="229"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
